@@ -58,6 +58,7 @@ Envoi de 2 paquets ICMP à 192.168.0.254 ...
 Sent : 2 , Received : 2
 Packet lost         : 0.0
 
+[i] L'hote répond au paquets icmp
 
 -------------------------------------------
 [i] Victime    Ip / MAC  -> 192.168.0.10  : 32:1a:u9:d4:f7:23
