@@ -1,0 +1,7 @@
+termcolor
+argparse
+icmplib
+scapy
+time
+sys 
+os
