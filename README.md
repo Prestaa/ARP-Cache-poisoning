@@ -1,8 +1,5 @@
 # ARP-Cache-poisoning
 
-```diff
-- text in red```
-
 # Installation :
 ```
 # Cloner :
@@ -17,19 +14,19 @@ pip3 install -r requirements.txt
 
 # Usage :
 
-```
+```diff
 
 $ sudo python3 acp.py --help
 
- ________      ________      ________
-|\   __  \    |\   ____\    |\   __  \
-\ \  \|\  \   \ \  \___|    \ \  \_\  \
- \ \   __  \   \ \  \        \ \   ____|
-  \ \  \ \  \ __\ \  \____  __\ \  \___|
-   \ \__\ \__\\__\ \_______\\__\ \__\
-    \|__|\|__\|__|\|_______\|__|\|__|
-    --< Arp cache poisoning python tool
-    --< by Presta
+- ________      ________      ________
+-|\   __  \    |\   ____\    |\   __  \
+-\ \  \|\  \   \ \  \___|    \ \  \_\  \
+- \ \   __  \   \ \  \        \ \   ____|
+-  \ \  \ \  \ __\ \  \____  __\ \  \___|
+-   \ \__\ \__\\__\ \_______\\__\ \__\
+-    \|__|\|__\|__|\|_______\|__|\|__|
+-    --< Arp cache poisoning python tool
+-    --< by Presta
 
 usage: python3 acp.py [-h] -s SWITCH_IP -i VICTIM_IP
 
