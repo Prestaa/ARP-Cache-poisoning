@@ -70,7 +70,7 @@ Packet lost         : 0.0
 
 ```
 
-Ce code a pour but de vous mettre dans une position de MiTM entre la victime et la passerelle en corrompant le cache ARP, il a été écrit pour un usage informatif et éducatif et non pour un usage illégal, il est interdit par la loi et punissable de l'utilisé sur un réseau ne vous appartenant pas, et je me désolidarise de ces actes.
+Ce code a pour but de vous mettre dans une position de MiTM entre la victime et la passerelle en corrompant le cache ARP, il a été écrit pour un usage éducatif et non  illégal, il est interdit par la loi de l'utiliser sur un réseau ne vous appartenant pas.
 
 # Informations :
 
