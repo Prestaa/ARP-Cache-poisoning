@@ -1,4 +1,4 @@
-<font color="green"> Some green text </font>
+<font color="red"> Some green text </font>
 
 # Installation :
 ```
