@@ -1,13 +1,8 @@
 # Installation :
 ```
-# Clone :
-$ git clone https://github.com/PrestaDZ/ARP-Cache-poisoning.git
-
-# Change directory :
-$ cd ARP-Cache-poisoning
-
-# Requirements :
-$ pip3 install -r requirements.txt
+git clone https://github.com/PrestaDZ/ARP-Cache-poisoning.git
+cd ARP-Cache-poisoning
+pip3 install -r requirements.txt
 ```
 
 # Usage :
