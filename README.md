@@ -1,5 +1,3 @@
-<font color="red"> Some green text </font>
-
 # Installation :
 ```
 # Cloner :
