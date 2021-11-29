@@ -1,6 +1,6 @@
 # Installation :
 ```
-# Cloner :
+# Clone :
 git clone https://github.com/PrestaDZ/ARP-Cache-poisoning.git
 
 # Change directory :
