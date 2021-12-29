@@ -72,7 +72,7 @@ def pinger(ip_add):
         
     elif str(stats.packet_loss) == "0.0":
         
-        print(colored("[i] L'hote répond au paquets icmp", 'Yellow'))
+        print(colored("[i] L'hote répond au paquets icmp", 'yellow'))
 
 # - Adresse mac recup
 def macrecup(ip):
