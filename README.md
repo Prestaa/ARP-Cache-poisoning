@@ -77,5 +77,5 @@ Packet lost         : 0.0
 
 # Informations :
 
-- Written by : Presta_DZ
+- Written by : Presta
 - Language : Python3
