@@ -1,6 +1,6 @@
 # ACP.py
 
-ACP.py est un code en python3 qui à pour but de vous mettre dans une position de MiTM entre la victime et la passerelle en corrompant le cache ARP.
+ACP.py is a python3 tool that allow you to MiTM between switch and the victim by ARP poisoning (or ARP spoofing). 
 
 
 # Installation :
@@ -12,68 +12,15 @@ pip3 install -r requirements.txt
 
 # Usage :
 
-```
+![ACC](https://user-images.githubusercontent.com/95232318/164916552-0fd40079-3d02-40d6-9a75-dd3daf460582.png)
 
-$ sudo python3 acp.py --help
-
- ________      ________      ________
-|\   __  \    |\   ____\    |\   __  \
-\ \  \|\  \   \ \  \___|    \ \  \_\  \
- \ \   __  \   \ \  \        \ \   ____|
-  \ \  \ \  \ __\ \  \____  __\ \  \___|
-   \ \__\ \__\\__\ \_______\\__\ \__\
-    \|__|\|__\|__|\|_______\|__|\|__|
-    --< Arp cache poisoning python tool
-    --< by Presta
-
-usage: python3 acp.py [-h] -s SWITCH_IP -i VICTIM_IP
-
-optional arguments:
-  -h, --help            show this help message and exit
-  -s SWITCH_IP, --switch-ip SWITCH_IP
-                        L'adresse IP de la passerelle.
-  -i VICTIM_IP, --victim-ip VICTIM_IP
-                        L'adresse IP de la victime.
-
-```
 
 # Exemple :
 
-```
-$ sudo python3 acp.py -s 192.168.0.254 -i 192.168.0.10
+![a](https://user-images.githubusercontent.com/95232318/164916704-6f2b3bd0-4f46-48c3-b4c3-5e23165c70a9.png)
 
- ________      ________      ________
-|\   __  \    |\   ____\    |\   __  \
-\ \  \|\  \   \ \  \___|    \ \  \_\  \
- \ \   __  \   \ \  \        \ \   ____|
-  \ \  \ \  \ __\ \  \____  __\ \  \___|
-   \ \__\ \__\\__\ \_______\\__\ \__\
-    \|__|\|__\|__|\|_______\|__|\|__|
-    --< Arp cache poisoning python tool
-    --< by Presta
+If we open wireshark we can now see all the trafic between the router and the victim.
 
-Envoi de 2 paquets ICMP à 192.168.0.10...
-------------
-Sent : 2 , Received : 0
-Packet lost         : 1.0
-
-[!] L'hôte ne répond pas au packets ICMP.
-Envoi de 2 paquets ICMP à 192.168.0.254 ...
-------------
-Sent : 2 , Received : 2
-Packet lost         : 0.0
-
-[i] L'hote répond au paquets icmp
-
--------------------------------------------
-[i] Victime    Ip / MAC  -> 192.168.0.10  : 32:1a:u9:d4:f7:23
-[i] Passerelle Ip / MAC  -> 192.168.0.254 : fa:18:8b:a6:21:ce
-
-[+] Lancement de l'attaque ...
-[i] Taper controle + C pour quitter le programme.
-[+] Attaque lancée avec succès
-
-```
 
 # Informations :
 
