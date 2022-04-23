@@ -17,7 +17,6 @@ pip3 install -r requirements.txt
 
 # Exemple :
 
-![a](https://user-images.githubusercontent.com/95232318/164916704-6f2b3bd0-4f46-48c3-b4c3-5e23165c70a9.png)
 
 If we open wireshark we can now see all the trafic between the router and the victim.
 
